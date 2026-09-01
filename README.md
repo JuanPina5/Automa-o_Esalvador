@@ -62,3 +62,22 @@ DEBUG = True
 ```
 Quando configurada como `True`, a automação irá fornecer mais detalhes no console. Caso a página apresente um erro ou ela falhe em extrair alguma unidade ou dias na página final, um arquivo `.html` e um `.png` (screenshot) serão salvos dentro da pasta `debug/`.
 Caso queira desligar e tornar o terminal mais limpo, altere para `False`.
+
+# Entra na pasta onde estão seus códigos
+cd C:\caminho\da\sua\pasta\com\os\codigos
+
+# Inicia git
+git init
+
+# Adiciona todos os arquivos
+git add .
+
+# Primeiro commit
+git commit -m "Inicial: automação eSalvador e Diário Oficial"
+
+# Conecta ao GitHub (cola a URL que copiou)
+git remote add origin https://github.com/SEU_USER/automacao-salvador.git
+
+# Envia para GitHub
+git branch -M main
+git push -u origin main
